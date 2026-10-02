@@ -17,6 +17,18 @@ def responder(mensagem):
     elif "quem é você" in mensagem:
         return "Eu sou um chatbot criado para conversar e responder perguntas. 🤖"
 
+    elif "capital do brasil" in mensagem:
+        return "A capital do Brasil é Brasília! 🇧🇷"
+
+    elif "planeta" in mensagem:
+        return "A Terra é o planeta onde vivemos. 🌎"
+
+    elif "fotossíntese" in mensagem or "fotossintese" in mensagem:
+        return "Fotossíntese é o processo em que as plantas usam luz para produzir seu próprio alimento. 🌱☀️"
+
+    elif "matemática" in mensagem or "matematica" in mensagem:
+        return "A matemática estuda números, formas, medidas e relações. 🔢📐"
+
     elif mensagem == "tchau":
         return "Até mais! 👋"
 
