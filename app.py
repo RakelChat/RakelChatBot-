@@ -762,8 +762,12 @@ Chatbot escolar para perguntas e respostas
 
 <div class="msg bot">
 
-Oi! 😊 Eu sou o RakelChatBot.
-Como posso ajudar?
+Olá! 😊 Eu sou o RakelChatBot 🤖
+Estou aqui para conversar, responder suas dúvidas e ajudar nos estudos! 📚✨
+
+Posso ajudar com Matemática, Português, História, Geografia, Ciências, Química, Física, Inglês, Tecnologia, Curiosidades e muito mais. 🔎💡
+
+O que você gostaria de perguntar? 💬
 
 </div>
 
