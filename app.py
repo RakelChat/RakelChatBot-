@@ -922,7 +922,7 @@ def inicio():
 @app.post("/chat")
 def chat():
 
-    dados =
+    dados = request.get_json(silent=True) or {}
     request.get_json(
         silent=True
     ) or {}
