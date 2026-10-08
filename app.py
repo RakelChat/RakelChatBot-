@@ -927,7 +927,7 @@ def chat():
         silent=True
     ) or {}
 
-    mensagem =
+mensagem = dados.get("mensagem", "")
     dados.get(
         "mensagem",
         ""
