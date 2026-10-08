@@ -923,26 +923,17 @@ def inicio():
 def chat():
 
     dados = request.get_json(silent=True) or {}
-    request.get_json(
-        silent=True
-    ) or {}
 
-mensagem = dados.get("mensagem", "")
-    dados.get(
-        "mensagem",
-        ""
-    )
+    mensagem = dados.get("mensagem", "")
 
     return jsonify({
-
-        "resposta":
-        encontrar_resposta(
-            mensagem
-        )
-
+        "resposta": encontrar_resposta(mensagem)
     })
 
 
 if __name__ == "__main__":
 
-    app.run()
+    app.run(
+        host="0.0.0.0",
+        port=5000
+    )
